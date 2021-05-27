@@ -1,0 +1,266 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+h1 {
+  margin-top: 43px; }
+
+h2 {
+  margin-top: 7px; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+/*hr
+ * display: inline-block
+ * width: 260px	 */
+body {
+  font-family: Roboto; }
+
+.header {
+  background: url("../img/main_bg.png") center center/cover no-repeat;
+  min-height: 802px;
+  text-align: center; }
+  .header_btn {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    margin-top: 72px;
+    padding: 24px 14px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#2798B9), to(#3AB6DA));
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+    max-width: 310px;
+    margin: 0 auto;
+    margin-top: 76px;
+    cursor: pointer; }
+
+.logo_title {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 9px; }
+.logo_img {
+  margin-top: 38px; }
+
+.promo {
+  position: relative; }
+  .promo_title {
+    font-weight: 900;
+    font-size: 41px;
+    text-transform: uppercase;
+    color: #F9BF3B; }
+  .promo_subtitle {
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -20px; }
+    .promo_subtitle::before {
+      content: "";
+      border: 1px solid #fff;
+      width: 200px;
+      display: inline-block;
+      margin-bottom: 20px; }
+      @media screen and (max-width: 1000px) {
+        .promo_subtitle::before {
+          display: none; } }
+    .promo_subtitle::after {
+      content: "";
+      border: 1px solid #fff;
+      width: 200px;
+      display: inline-block;
+      margin-bottom: 20px; }
+      @media screen and (max-width: 1000px) {
+        .promo_subtitle::after {
+          display: none; } }
+  .promo_text {
+    font-weight: 300;
+    font-size: 21px;
+    color: #FFFFFF; }
+    @media screen and (max-width: 1000px) {
+      .promo_text {
+        display: none; } }
+
+.dedicated {
+  font-weight: bold;
+  font-size: 21px;
+  color: #F9BF3B; }
+
+.more_title {
+  font-weight: 200;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 65px; }
+.more_img {
+  margin-top: 5px; }
+.more_img:hover {
+  margin-top: 10px; }
+
+.intensive {
+  min-height: 607px;
+  text-align: center;
+  background: #EFEFEF; }
+  .intensive_title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #252525;
+    padding-top: 90px; }
+  .intensive_subtitle {
+    margin-top: 18px;
+    font-size: 23px;
+    color: #4A4A4A; }
+
+.line {
+  border: 2px solid #F9BF3B;
+  width: 220px;
+  margin-top: 10px; }
+
+.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 45px; }
+  .steps_text {
+    margin-top: 25px;
+    max-width: 369px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #4A4A4A; }
+
+.optimization {
+  min-height: 502px;
+  background: url("../img/woman_bg.png") no-repeat;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative; }
+  @media screen and (max-width: 1200px) {
+    .optimization {
+      display: none; } }
+
+.description {
+  padding-top: 60px;
+  position: absolute;
+  top: 5%;
+  left: 47%; }
+  .description_title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #299CBD; }
+  .description_text {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px; }
+  .description_changhe {
+    font-weight: 900; }
+
+.after {
+  background: url("../img/second_bg.png") center center/cover no-repeat;
+  min-height: 450px;
+  text-align: center; }
+  .after_title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #EFEFEF;
+    padding-top: 86px; }
+  .after_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 39px; }
+    @media screen and (max-width: 420px) {
+      .after_box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+
+.box_img {
+  background-color: #B4E2FF;
+  border-radius: 100%;
+  width: 118px;
+  height: 118px;
+  margin: 0 auto; }
+.box_text {
+  font-weight: 300;
+  font-size: 17px;
+  color: #EFEFEF;
+  margin-top: 25px;
+  max-width: 208px; }
+  @media screen and (max-width: 421px) {
+    .box_text {
+      max-width: 100%; } }
+
+.img {
+  padding-top: 30px; }
+
+.bonus {
+  min-height: 631px;
+  text-align: center;
+  background: #EFEFEF; }
+  .bonus_img {
+    padding-top: 85px; }
+  .bonus_text {
+    margin-top: 45px;
+    font-size: 30px;
+    color: #252525; }
+
+.web {
+  min-height: 512px;
+  text-align: center; }
+  .web_img {
+    padding-top: 89px; }
+  .web_title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #252525;
+    margin-top: 36px; }
+  .web_title-time {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #299CBD; }
+  .web_subtitle {
+    margin-top: 25px;
+    font-size: 23px;
+    color: #4A4A4A; }
+
+.footer {
+  min-height: 169px;
+  text-align: center;
+  background: #1A1A1A; }
+  .footer_text {
+    padding-top: 54px;
+    font-weight: 300;
+    font-size: 15px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #888888; }
+  .footer_change {
+    font-weight: 300;
+    font-size: 15px;
+    color: #888888;
+    padding-top: 5px; }
+
+/*# sourceMappingURL=style.css.map */
